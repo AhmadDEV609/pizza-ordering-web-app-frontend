@@ -1,0 +1,33 @@
+/* Default button style */
+button {
+    background-color: var(--color-amber-300);
+    color: black;
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button style in dark mode */
+body.dark-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Default checkbox style (modern browsers support accent-color) */
+input[type="checkbox"] {
+    accent-color: black;
+    cursor: pointer;
+    color: black;
+}
+
+/* Checkbox style in dark mode */
+body.dark-mode input[type="checkbox"] {
+    accent-color: white;
+}
+
+body.dark-mode .addtocartcss {
+    background-color: red;
+}

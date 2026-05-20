@@ -1,0 +1,953 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "Margherita Classic",
+            "description": "Traditional Neapolitan pizza with mozzarella, tomatoes, basil, and olive oil.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 8.99,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 2,
+            "name": "Pepperoni Inferno",
+            "description": "Spicy pepperoni slices, mozzarella, and tomato sauce on thin crust.",
+            "image": "https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg",
+            "price": 10.99,
+            "category": "Meat"
+        },
+        {
+            "id": 3,
+            "name": "BBQ Chicken",
+            "description": "Grilled chicken with BBQ sauce, red onions, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/pizza-712665_1280.jpg",
+            "price": 11.5,
+            "category": "Chicken"
+        },
+        {
+            "id": 4,
+            "name": "Veggie Supreme",
+            "description": "Bell peppers, mushrooms, onions, olives, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_1280.jpg",
+            "price": 9.95,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 5,
+            "name": "Hawaiian",
+            "description": "Ham, pineapple chunks, and mozzarella cheese on tomato sauce base.",
+            "image": "https://cdn.pixabay.com/photo/2016/11/29/13/02/cheese-1869708_1280.jpg",
+            "price": 10.5,
+            "category": "Meat"
+        },
+        {
+            "id": 6,
+            "name": "Four Cheese",
+            "description": "Mozzarella, cheddar, parmesan, and gorgonzola cheese blend.",
+            "image": "https://cdn.pixabay.com/photo/2021/12/30/11/33/italian-cuisine-6903773_1280.jpg",
+            "price": 12.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 7,
+            "name": "Meat Lovers",
+            "description": "Pepperoni, ham, sausage, bacon, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2021/09/28/15/21/pizza-6664791_1280.jpg",
+            "price": 13.5,
+            "category": "Meat"
+        },
+        {
+            "id": 8,
+            "name": "Buffalo Chicken",
+            "description": "Spicy buffalo sauce, grilled chicken, mozzarella, and red onions.",
+            "image": "https://cdn.pixabay.com/photo/2021/08/30/16/12/pizza-6586300_1280.jpg",
+            "price": 11.95,
+            "category": "Chicken"
+        },
+        {
+            "id": 9,
+            "name": "Spinach & Feta",
+            "description": "Fresh spinach, feta cheese, olives, and mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2021/12/11/17/12/food-6863243_1280.jpg",
+            "price": 10.75,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 10,
+            "name": "Sausage & Peppers",
+            "description": "Italian sausage, green peppers, onions, and mozzarella cheese.",
+            "image": "h",
+            "price": 12.25,
+            "category": "Meat"
+        },
+        {
+            "id": 11,
+            "name": "Mushroom Medley",
+            "description": "Assorted mushrooms with garlic, olive oil, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg",
+            "price": 10.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 12,
+            "name": "Chicken Alfredo",
+            "description": "Creamy Alfredo sauce, grilled chicken, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2021/07/19/16/04/pizza-6478478_1280.jpg",
+            "price": 12.0,
+            "category": "Chicken"
+        },
+        {
+            "id": 13,
+            "name": "Classic Pepperoni",
+            "description": "Generous pepperoni slices with mozzarella cheese and tomato sauce.",
+            "image": "https://cdn.pixabay.com/photo/2021/12/30/11/31/italian-cuisine-6903772_1280.jpg",
+            "price": 9.99,
+            "category": "Meat"
+        },
+        {
+            "id": 14,
+            "name": "Mediterranean",
+            "description": "Olives, feta cheese, tomatoes, onions, and spinach.",
+            "image": "https://cdn.pixabay.com/photo/2017/09/17/19/16/pizza-2759428_1280.jpg",
+            "price": 11.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 15,
+            "name": "Philly Cheesesteak",
+            "description": "Thinly sliced steak, green peppers, onions, and provolone cheese.",
+            "image": "https://cdn.pixabay.com/photo/2021/12/07/15/24/pizza-6853522_1280.jpg",
+            "price": 13.0,
+            "category": "Meat"
+        },
+        {
+            "id": 16,
+            "name": "Caprese",
+            "description": "Fresh mozzarella, tomatoes, basil, and balsamic glaze.",
+            "image": "https://cdn.pixabay.com/photo/2017/10/02/22/24/pizza-2810590_1280.jpg",
+            "price": 10.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 17,
+            "name": "BBQ Pulled Pork",
+            "description": "Pulled pork, BBQ sauce, red onions, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332_1280.jpg",
+            "price": 13.25,
+            "category": "Meat"
+        },
+        {
+            "id": 18,
+            "name": "Jalapeño Popper",
+            "description": "Jalapeños, cream cheese, bacon, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/09/17/12/38/pizza-5579057_1280.jpg",
+            "price": 12.5,
+            "category": "Meat"
+        },
+        {
+            "id": 19,
+            "name": "Garden Fresh",
+            "description": "Zucchini, tomatoes, mushrooms, onions, and bell peppers.",
+            "image": "https://cdn.pixabay.com/photo/2023/11/03/14/57/pizza-8363203_1280.jpg",
+            "price": 9.75,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 20,
+            "name": "Taco Pizza",
+            "description": "Ground beef, cheddar cheese, lettuce, tomatoes, and sour cream drizzle.",
+            "image": "https://cdn.pixabay.com/photo/2019/05/15/18/56/pizza-4205701_1280.jpg",
+            "price": 12.75,
+            "category": "Meat"
+        },
+        {
+            "id": 21,
+            "name": "Four Seasons",
+            "description": "Artichokes, ham, mushrooms, olives, and mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2021/02/08/18/27/pizza-5995982_1280.jpg",
+            "price": 13.0,
+            "category": "Meat"
+        },
+        {
+            "id": 22,
+            "name": "Eggplant Parmesan",
+            "description": "Breaded eggplant slices, marinara sauce, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2018/04/21/04/00/food-3337654_1280.jpg",
+            "price": 11.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 23,
+            "name": "Spicy Italian",
+            "description": "Hot Italian sausage, pepperoni, jalapeños, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/12/12/05/pizza-5033971_1280.jpg",
+            "price": 13.5,
+            "category": "Meat"
+        },
+        {
+            "id": 24,
+            "name": "Spinach Artichoke",
+            "description": "Spinach, artichokes, garlic, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/26/19/26/pizza-4971540_1280.jpg",
+            "price": 11.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 25,
+            "name": "Chicken Pesto",
+            "description": "Grilled chicken, pesto sauce, sun-dried tomatoes, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/12/12/05/pizza-5033972_1280.jpg",
+            "price": 12.5,
+            "category": "Chicken"
+        },
+        {
+            "id": 26,
+            "name": "Bacon Cheeseburger",
+            "description": "Ground beef, bacon, cheddar cheese, onions, and pickles.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/15/07/04/pizza-3227292_1280.jpg",
+            "price": 13.75,
+            "category": "Meat"
+        },
+        {
+            "id": 27,
+            "name": "Margarita Extra",
+            "description": "Extra mozzarella, fresh tomatoes, basil, and olive oil drizzle.",
+            "image": "https://cdn.pixabay.com/photo/2020/05/24/18/20/pizza-5215500_1280.jpg",
+            "price": 9.75,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 28,
+            "name": "Buffalo Ranch",
+            "description": "Buffalo chicken, ranch dressing, mozzarella, and red onions.",
+            "image": "https://cdn.pixabay.com/photo/2023/04/30/21/34/pizza-7961604_1280.jpg",
+            "price": 11.95,
+            "category": "Chicken"
+        },
+        {
+            "id": 29,
+            "name": "Roasted Veggie Delight",
+            "description": "Roasted zucchini, bell peppers, eggplant, and goat cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/11/01/01/10/pizza-2906900_1280.jpg",
+            "price": 10.85,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 30,
+            "name": "Chicken Bacon Ranch",
+            "description": "Grilled chicken, crispy bacon, ranch dressing, and mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 12.25,
+            "category": "Chicken"
+        },
+        {
+            "id": 31,
+            "name": "Prosciutto & Arugula",
+            "description": "Thinly sliced prosciutto, fresh arugula, shaved parmesan, and balsamic glaze.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 14.0,
+            "category": "Gourmet"
+        },
+        {
+            "id": 32,
+            "name": "Buffalo Mozzarella & Tomato",
+            "description": "Creamy buffalo mozzarella with heirloom tomatoes and fresh basil.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 11.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 33,
+            "name": "Margherita",
+            "description": "Topped with garden-fresh vegetables and hand-tossed dough.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 10.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 34,
+            "name": "Pepperoni",
+            "description": "Loaded with creamy cheese and tangy tomato base.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 12.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 35,
+            "name": "BBQ Chicken",
+            "description": "A delicious blend of smoky sauces and rich mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 13.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 36,
+            "name": "Hawaiian",
+            "description": "Savor the crunchy crust with gourmet toppings.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 11.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 37,
+            "name": "Veggie Delight",
+            "description": "A flavorful mix of fresh ingredients and premium cheese.",
+            "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+            "price": 10.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 38,
+            "name": "Mushroom & Onion",
+            "description": "Topped with garden-fresh vegetables and hand-tossed dough.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 10.75,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 39,
+            "name": "Four Cheese",
+            "description": "Loaded with creamy cheese and tangy tomato base.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 12.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 40,
+            "name": "Spinach Alfredo",
+            "description": "A delicious blend of smoky sauces and rich mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 13.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 41,
+            "name": "Pesto Chicken",
+            "description": "Savor the crunchy crust with gourmet toppings.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 42,
+            "name": "Meat Lovers",
+            "description": "A flavorful mix of fresh ingredients and premium cheese.",
+            "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+            "price": 14.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 43,
+            "name": "Tomato Basil",
+            "description": "Fresh tomatoes and basil on a crispy crust.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 11.25,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 44,
+            "name": "Garlic Chicken",
+            "description": "Garlic-infused chicken with creamy sauce.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 13.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 45,
+            "name": "Sausage Supreme",
+            "description": "Italian sausage with melted mozzarella and sauce.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 12.75,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 46,
+            "name": "Truffle Mushroom",
+            "description": "Savory truffle oil and earthy mushrooms.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 14.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 47,
+            "name": "Tandoori Paneer",
+            "description": "Spicy paneer with Indian tandoori flavor.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 13.25,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 48,
+            "name": "Zesty Veggie",
+            "description": "Loaded with bell peppers, olives, and jalapeños.",
+            "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+            "price": 11.5,
+            "category": "Vegan"
+        },
+        {
+            "id": 49,
+            "name": "Classic Mozzarella",
+            "description": "Simplicity at its best – rich mozzarella and herbs.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 10.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 50,
+            "name": "Bacon Burst",
+            "description": "Bacon overload with smoky BBQ drizzle.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 13.75,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 51,
+            "name": "Green Garden",
+            "description": "A crunchy medley of seasonal greens.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 12.25,
+            "category": "Vegan"
+        },
+        {
+            "id": 52,
+            "name": "Cheese Overload",
+            "description": "Triple cheese blend for the ultimate melt.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 12.9,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 53,
+            "name": "Buffalo Mozzarella & Tomato",
+            "description": "Creamy buffalo mozzarella with heirloom tomatoes and fresh basil.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 11.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 54,
+            "name": "Mediterranean",
+            "description": "A tasty mix of olives, feta, and fresh veggies.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 12.3,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 55,
+            "name": "Spicy Italian",
+            "description": "Pepperoni, spicy sausage, and hot peppers.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 13.8,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 56,
+            "name": "Cheesy Garlic Bread",
+            "description": "Perfect side with cheesy garlic toppings.",
+            "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+            "price": 8.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 57,
+            "name": "Veggie Supreme",
+            "description": "Loaded with mushrooms, onions, peppers, and olives.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 12.2,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 58,
+            "name": "Buffalo Chicken",
+            "description": "Spicy buffalo sauce with grilled chicken.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 14.2,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 59,
+            "name": "BBQ Pulled Pork",
+            "description": "Slow-cooked pulled pork with BBQ sauce.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 15.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 60,
+            "name": "Caprese",
+            "description": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 11.75,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 61,
+            "name": "Mexican Fiesta",
+            "description": "Loaded with jalapeños, onions, and spicy beef.",
+            "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+            "price": 13.4,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 62,
+            "name": "Vegan Delight",
+            "description": "Plant-based cheese with fresh veggies.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 12.0,
+            "category": "Vegan"
+        },
+        {
+            "id": 64,
+            "name": "Spicy Pepperoni",
+            "description": "Pepperoni with spicy chili flakes and mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 13.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 65,
+            "name": "Mediterranean Veggie",
+            "description": "Olives, artichokes, sun-dried tomatoes on a thin crust.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 12.3,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 66,
+            "name": "BBQ Chicken Deluxe",
+            "description": "BBQ chicken with caramelized onions and cheddar.",
+            "image": "https://cdn.pixabay.com/photo/2017/03/27/14/56/pizza-2178342_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 67,
+            "name": "Four Seasons",
+            "description": "Artichokes, mushrooms, ham, and olives divided by quarters.",
+            "image": "https://cdn.pixabay.com/photo/2020/12/01/07/10/pizza-5799737_1280.jpg",
+            "price": 15.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 68,
+            "name": "Classic Hawaiian",
+            "description": "Ham, pineapple, and cheese blend on a crispy base.",
+            "image": "https://cdn.pixabay.com/photo/2016/11/29/09/18/pizza-1867686_1280.jpg",
+            "price": 13.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 69,
+            "name": "Garden Fresh",
+            "description": "Fresh tomato, basil, zucchini, and bell peppers.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 12.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 70,
+            "name": "Italian Sausage",
+            "description": "Spicy Italian sausage with fresh mozzarella and sauce.",
+            "image": "https://cdn.pixabay.com/photo/2017/03/27/14/56/pizza-2178342_1280.jpg",
+            "price": 14.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 71,
+            "name": "Vegan Supreme",
+            "description": "Plant-based cheese with mushrooms, olives, and spinach.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 13.0,
+            "category": "Vegan"
+        },
+        {
+            "id": 72,
+            "name": "Mushroom Truffle",
+            "description": "Mushrooms with truffle oil and creamy mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 15.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 73,
+            "name": "Buffalo Chicken",
+            "description": "Spicy buffalo sauce with grilled chicken and cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 74,
+            "name": "Four Cheese",
+            "description": "Mozzarella, cheddar, parmesan, and blue cheese blend.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 13.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 75,
+            "name": "Pesto Veggie",
+            "description": "Basil pesto base with tomato and zucchini toppings.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 12.8,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 76,
+            "name": "Pepperoni Feast",
+            "description": "Double pepperoni layered with mozzarella cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 14.2,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 77,
+            "name": "Spinach Alfredo",
+            "description": "Creamy alfredo sauce topped with fresh spinach.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 13.3,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 78,
+            "name": "Meat Lovers",
+            "description": "Pepperoni, sausage, bacon, and ham on tomato base.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 15.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 79,
+            "name": "Tomato Basil",
+            "description": "Fresh tomato slices and basil leaves on a light base.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 11.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 80,
+            "name": "Sweet Chili Chicken",
+            "description": "Chicken with sweet chili sauce and mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2017/03/27/14/56/pizza-2178342_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 81,
+            "name": "Vegan Margherita",
+            "description": "Dairy-free cheese, tomato, and fresh basil.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 12.5,
+            "category": "Vegan"
+        },
+        {
+            "id": 82,
+            "name": "Hawaiian BBQ",
+            "description": "Ham, pineapple, and BBQ sauce on a crispy crust.",
+            "image": "https://cdn.pixabay.com/photo/2016/11/29/09/18/pizza-1867686_1280.jpg",
+            "price": 13.8,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 83,
+            "name": "Mediterranean Special",
+            "description": "Feta, olives, spinach, and sun-dried tomatoes.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 13.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 84,
+            "name": "Cheesy Garlic Bread",
+            "description": "Oven-baked bread with garlic butter and cheese.",
+            "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+            "price": 8.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 85,
+            "name": "Buffalo Mozzarella",
+            "description": "Creamy buffalo mozzarella with fresh tomato sauce.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 12.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 86,
+            "name": "Bacon & Jalapeno",
+            "description": "Crispy bacon with spicy jalapeno peppers and cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 14.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 87,
+            "name": "Veggie Lovers",
+            "description": "Peppers, onions, mushrooms, olives, and tomatoes.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 12.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 88,
+            "name": "Sausage & Peppers",
+            "description": "Italian sausage with bell peppers and onions.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 89,
+            "name": "Spinach & Feta",
+            "description": "Fresh spinach leaves and crumbled feta cheese.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 13.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 90,
+            "name": "Classic Cheese",
+            "description": "Mozzarella and parmesan cheese blend on tomato sauce.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 11.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 91,
+            "name": "Buffalo Chicken Ranch",
+            "description": "Spicy buffalo chicken with ranch dressing drizzle.",
+            "image": "https://cdn.pixabay.com/photo/2017/03/27/14/56/pizza-2178342_1280.jpg",
+            "price": 14.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 92,
+            "name": "Vegan BBQ",
+            "description": "Plant-based cheese with BBQ jackfruit and onions.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 13.5,
+            "category": "Vegan"
+        },
+        {
+            "id": 93,
+            "name": "Pepperoni & Mushroom",
+            "description": "Classic combo of pepperoni and fresh mushrooms.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 94,
+            "name": "Margherita Classic",
+            "description": "Simple tomato sauce with mozzarella and basil.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 10.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 95,
+            "name": "Mushroom & Spinach",
+            "description": "Fresh mushrooms and spinach on a creamy sauce.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 13.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 96,
+            "name": "Hawaiian Delight",
+            "description": "Ham and pineapple with a sweet and savory blend.",
+            "image": "https://cdn.pixabay.com/photo/2016/11/29/09/18/pizza-1867686_1280.jpg",
+            "price": 13.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 97,
+            "name": "Italian Supreme",
+            "description": "Pepperoni, sausage, ham, and mushrooms on tomato base.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 15.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 98,
+            "name": "Vegan Garden",
+            "description": "Zucchini, bell peppers, olives with vegan cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 12.5,
+            "category": "Vegan"
+        },
+        {
+            "id": 99,
+            "name": "Four Cheese Blend",
+            "description": "Mozzarella, cheddar, parmesan, and gouda cheese mix.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 13.5,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 100,
+            "name": "Meat Feast",
+            "description": "Pepperoni, sausage, bacon, and ham with cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 15.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 101,
+            "name": "Spinach & Ricotta",
+            "description": "Creamy ricotta cheese with fresh spinach and garlic.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 13.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 102,
+            "name": "Pineapple BBQ Chicken",
+            "description": "BBQ chicken with sweet pineapple chunks and mozzarella.",
+            "image": "https://cdn.pixabay.com/photo/2016/11/29/09/18/pizza-1867686_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 103,
+            "name": "Vegan Mushroom Delight",
+            "description": "Sautéed mushrooms and vegan cheese on thin crust.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 13.2,
+            "category": "Vegan"
+        },
+        {
+            "id": 104,
+            "name": "Cheesy Bacon",
+            "description": "Crispy bacon strips with gooey melted cheese.",
+            "image": "https://cdn.pixabay.com/photo/2020/04/07/10/31/pizza-5014037_1280.jpg",
+            "price": 14.5,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 105,
+            "name": "Mediterranean Veggie",
+            "description": "Olives, sun-dried tomatoes, artichokes, and feta cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 13.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 106,
+            "name": "Pepperoni & Jalapeno",
+            "description": "Pepperoni and spicy jalapeno peppers with cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 107,
+            "name": "Classic Margherita",
+            "description": "Tomato, basil, and mozzarella with olive oil drizzle.",
+            "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+            "price": 11.0,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 108,
+            "name": "Vegan Supreme",
+            "description": "Vegan cheese, peppers, olives, and mushrooms.",
+            "image": "https://cdn.pixabay.com/photo/2020/03/22/19/38/pizza-4959477_1280.jpg",
+            "price": 13.5,
+            "category": "Vegan"
+        },
+        {
+            "id": 109,
+            "name": "Sausage & Onion",
+            "description": "Italian sausage with caramelized onions and cheese.",
+            "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2362162_1280.jpg",
+            "price": 14.0,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 110,
+            "name": "Spinach & Mushroom",
+            "description": "Fresh spinach and mushrooms on a tomato base.",
+            "image": "https://cdn.pixabay.com/photo/2018/03/28/20/27/pizza-3277203_1280.jpg",
+            "price": 12.8,
+            "category": "Vegetarian"
+        },
+        {
+            "id": 111,
+            "name": "Hawaiian BBQ",
+            "description": "Ham, pineapple, and BBQ sauce blend on a crispy crust.",
+            "image": "https://cdn.pixabay.com/photo/2016/11/29/09/18/pizza-1867686_1280.jpg",
+            "price": 13.7,
+            "category": "Non-Vegetarian"
+        },
+        {
+            "id": 112,
+            "name": "Four Cheese Classic",
+            "description": "Mozzarella, parmesan, cheddar, and gouda cheese.",
+            "image": "https://cdn.pixabay.com/photo/2018/12/15/21/50/pizza-3877683_1280.jpg",
+            "price": 13.4,
+            "category": "Vegetarian"
+        }
+    ],
+    "crusts": [
+        "Thin Crust",
+        "Thick Crust",
+        "Cheese Stuffed Crust",
+        "Gluten-Free Crust",
+        "Cauliflower Crust",
+        "Whole Wheat Crust",
+        "Garlic Butter Crust",
+        "Herb Infused Crust",
+        "Sourdough Crust",
+        "Pretzel Crust",
+        "Flatbread Crust"
+    ],
+    "sauces": [
+        "Tomato Basil",
+        "Alfredo",
+        "BBQ",
+        "Pesto",
+        "Buffalo",
+        "Garlic Parmesan",
+        "Spicy Arrabbiata",
+        "White Sauce",
+        "Ranch",
+        "Olive Oil & Herb",
+        "Hummus"
+    ],
+    "toppings": [
+        "Extra Mozzarella",
+        "Pepperoni",
+        "Mushrooms",
+        "Onions",
+        "Black Olives",
+        "Green Peppers",
+        "Bacon Bits",
+        "Pineapple",
+        "Jalapeños",
+        "Sausage",
+        "Chicken",
+        "Spinach",
+        "Sun-Dried Tomatoes",
+        "Feta Cheese",
+        "Anchovies",
+        "Roasted Garlic",
+        "Artichokes",
+        "Ham",
+        "Ground Beef",
+        "Fresh Basil"
+    ],
+    "drinks": [
+        "Coca-Cola 330ml",
+        "Pepsi 330ml",
+        "Sprite 330ml",
+        "Fanta 330ml",
+        "Orange Juice 300ml",
+        "Apple Juice 300ml",
+        "Mineral Water 500ml",
+        "Sparkling Water 500ml",
+        "Iced Tea 400ml",
+        "Lemonade 400ml",
+        "Root Beer 330ml"
+    ]
+}
